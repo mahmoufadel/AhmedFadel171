@@ -1,22 +1,22 @@
-Ahmed Basha 
+*Ahmed Basha *
 In this task, you will develop a service that fetches product attachments from two external services, handles resilience using Polly, caches the results in MemoryCache, and saves the results to the database. 
 You will also use the Strategy Pattern to handle different external services and implement parallel programming for efficiency.
 
 Requirements:
-External Services:
+*External Services:*
 
-Service A: Fetch product attachments from the first external service.
-Service B: Fetch product attachments from the second external service.
-Caching and Resilience:
+Service A: Fetch product attachments from the first external service :: it contains 2 types of Attachment (with 2 diff endpoints).
+Service B: Fetch product attachments from the second external service. it contains 3 types of Attachment (with 3 diff endpoints).
+*Caching and Resilience:*
 
 Use Polly to add retries with exponential backoff for failed requests.
-Use MemoryCache to store fetched results for 10 minutes, preventing duplicate API calls.
-Database Storage:
+Use MemoryCache to store fetched results for 10 minutes, preventing duplicate API calls. (use product Id   + attachment type)
+*Database Storage:*
 
-Save the fetched attachment data into a Product Attachments table in the database, ensuring no duplicates are saved.
-Strategy Pattern:
+Save the fetched attachment data into a Product Attachments table in the database (new Table), ensuring no duplicates are saved.
+*Strategy Pattern:*
 
-Implement the Strategy Pattern to handle fetching attachments from different sources (Service A and Service B). This will allow for flexibility in adding new services in the future.
-Parallel Execution:
+Implement the Strategy Pattern to handle fetching attachments from different sources (Service A OR Service B). this should be done from Configs.
+*Parallel Execution:*
 
-Use parallel programming (e.g., Task.WhenAll) to fetch data from the external services concurrently, improving performance.
+Use parallel programming (e.g., Task.WhenAll) to fetch data from the external services concurrently to improving performance.

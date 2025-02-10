@@ -5,14 +5,14 @@ You will also use the Strategy Pattern to handle different external services and
 **Requirements**
 
 
-__ External Services __ (don't invist time in implmention)
+** External Services ** (don't invist time in implmention)
 - Service A Mock : Fetch product attachments (5 props) from the first external service :: it contains 2 types of Attachment (with 2 diff endpoints).
 - Service B Mock : Fetch product attachments from the second external service. it contains 3 types of Attachment (with 3 diff endpoints).
 
  - Use MemoryCache (Use abstract layer) to store fetched results for 10 minutes, preventing duplicate API calls. (use product Id   + attachment type)
 __ Database Storage __
 
-Save the fetched attachment data into a Product Attachments table in the database (new Table), ensuring no duplicates are saved.
+- Save the fetched attachment data into a Product Attachments table in the database (new Table), ensuring no duplicates are saved.
 
 __Parallel Execution__
 - Use parallel programming (e.g., Task.WhenAll) to fetch data from the external services concurrently to improving performance.
@@ -20,5 +20,5 @@ __Parallel Execution__
 **Caching and Resilience **
  - Use Polly to add retries with exponential backoff for failed requests.
 
-** Strategy Pattern **
+__Strategy Pattern__
 Implement the Strategy Pattern to handle fetching attachments from different sources (Service A OR Service B). this should be done from Configs.

@@ -3,11 +3,10 @@ In this task, you will develop a service that fetches product attachments from t
 You will also use the Strategy Pattern to handle different external services and implement parallel programming for efficiency.
 
 Requirements:
-*External Services:*
-
-Service A: Fetch product attachments from the first external service :: it contains 2 types of Attachment (with 2 diff endpoints).
-Service B: Fetch product attachments from the second external service. it contains 3 types of Attachment (with 3 diff endpoints).
-*Caching and Resilience:*
+-- External Services--
+- Service A: Fetch product attachments from the first external service :: it contains 2 types of Attachment (with 2 diff endpoints).
+- Service B: Fetch product attachments from the second external service. it contains 3 types of Attachment (with 3 diff endpoints).
+-- Caching and Resilience -- 
 
 Use Polly to add retries with exponential backoff for failed requests.
 Use MemoryCache to store fetched results for 10 minutes, preventing duplicate API calls. (use product Id   + attachment type)

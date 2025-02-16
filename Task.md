@@ -1,3 +1,12 @@
+__Linq Task__ 16 Feb 25
+ Create new end point to retrive attachments with 2 params (Type, name [use contains]) 
+ - Write 4 linq queruies to retirve attachments
+ --  Using LINQ Method Syntax.
+ -- Using Dynamic LINQ
+ -- Using Dynamic Expressions
+ -- Using Extension Methods
+
+
 __Ahmed Basha__
 In this task, you will develop a service that fetches product attachments from two external services, handles resilience using Polly, caches the results in MemoryCache, and saves the results to the database. 
 You will also use the Strategy Pattern to handle different external services and implement parallel programming for efficiency.

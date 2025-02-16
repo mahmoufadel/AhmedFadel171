@@ -7,6 +7,7 @@ __Linq Task__ 16 Feb 25
    - Using Extension Methods
 
 
+__Http Task__ 10 Feb 25
 __Ahmed Basha__
 In this task, you will develop a service that fetches product attachments from two external services, handles resilience using Polly, caches the results in MemoryCache, and saves the results to the database. 
 You will also use the Strategy Pattern to handle different external services and implement parallel programming for efficiency.

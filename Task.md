@@ -3,11 +3,16 @@ __Linq Task__ 16 Feb 25
  - Write 4 linq queruies to retirve attachments
    - Using LINQ Method Syntax.
    - Using Dynamic LINQ
-   - Using Dynamic Expressions
-   - Using Extension Methods
+   - Using **Dynamic Expressions**
+   - Using **Extension Methods**
+   - Try to use SQL profiles to see genereted SQL queris (i will show you but after u search)
+   - Try to configure you logging to see genereted SQL queris 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __Http Task__ 10 Feb 25
+
 __Ahmed Basha__
 In this task, you will develop a service that fetches product attachments from two external services, handles resilience using Polly, caches the results in MemoryCache, and saves the results to the database. 
 You will also use the Strategy Pattern to handle different external services and implement parallel programming for efficiency.

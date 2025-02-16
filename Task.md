@@ -1,10 +1,10 @@
 __Linq Task__ 16 Feb 25
  Create new end point to retrive attachments with 2 params (Type, name [use contains]) 
- - Write 4 linq queruies to retirve attachments
- --  Using LINQ Method Syntax.
- -- Using Dynamic LINQ
- -- Using Dynamic Expressions
- -- Using Extension Methods
+ Write 4 linq queruies to retirve attachments
+ - Using LINQ Method Syntax.
+ - Using Dynamic LINQ
+ - Using Dynamic Expressions
+ - Using Extension Methods
 
 
 __Ahmed Basha__

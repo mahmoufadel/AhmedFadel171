@@ -9,10 +9,10 @@ __Linq Task__ 16 Feb 25
    - Try to configure you logging to see genereted SQL queris
    - Diff between **Delegate**, **Action<T>**, **Lambda Expression** and for sure **Func<T>** try to use them on your new 4 methods :)
 
-
+__Links__
+- <a  target="_blank"  href="https://www.tutorialsteacher.com/linq" > Working with LINQ: </a>
 - <a  target="_blank"  href="https://tyrrrz.me/blog/expression-trees" >Working with expressions trees in C#:</a>
 - <a  target="_blank"  href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/" >Expression Trees:</a>
-- <a  target="_blank"  href="https://www.tutorialsteacher.com/linq/linq-expression" >Expression in LINQ: </a>
 - <a  target="_blank"  href="https://www.tutorialsteacher.com/linq/expression-tree" >Expression Tree: </a>
 - <a  target="_blank"  href="https://youtu.be/dwr40KytyaY" >Video. Expression Trees</a>
 

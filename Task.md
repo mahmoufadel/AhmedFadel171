@@ -1,3 +1,11 @@
+__Linq Task__ 17 Feb 25
+- Add Join with products Table
+- Add 5 new ext methods
+- Do Bulk Update
+- Do bulk Delete .
+- Add SQL Logger for Quries
+
+  
 __Linq Task__ 16 Feb 25
  - Create new end point to retrive attachments with 2 params (Type, name [use contains]) 
  - Write 4 linq queruies to retirve attachments

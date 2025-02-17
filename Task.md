@@ -8,8 +8,8 @@ __Linq Task__ 16 Feb 25
    - Try to use SQL profiles to see genereted SQL queris (i will show you but after u search)
    - Try to configure you logging to see genereted SQL queris
   
-- <a  target="_blank" rel="noopener noreferrer" href="&nbsp;https://tyrrrz.me/blog/expression-trees" >Working with expressions trees in C#:</a>
-- <a  target="_blank" rel="noopener noreferrer" href="&nbsp;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/" >Expression Trees:</a>
+- <a  target="_blank" rel="noopener noreferrer" href="https://tyrrrz.me/blog/expression-trees" >Working with expressions trees in C#:</a>
+- <a  target="_blank" rel="noopener noreferrer" href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/" >Expression Trees:</a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://www.tutorialsteacher.com/linq/linq-expression" >Expression in LINQ: </a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://www.tutorialsteacher.com/linq/expression-tree" >Expression Tree: </a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://youtu.be/dwr40KytyaY" >Video. Expression Trees</a>

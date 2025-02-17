@@ -7,6 +7,7 @@ __Linq Task__ 16 Feb 25
    - Using **Extension Methods**
    - Try to use SQL profiles to see genereted SQL queris (i will show you but after u search)
    - Try to configure you logging to see genereted SQL queris
+   - Diff between **Delegate**, **Action<T>**, **Lambda Expression** and for sure **Func<T>** try to use them on your new 4 methods :)
 
 
 - <a  target="_blank"  href="https://tyrrrz.me/blog/expression-trees" >Working with expressions trees in C#:</a>

@@ -7,7 +7,8 @@ __Linq Task__ 16 Feb 25
    - Using **Extension Methods**
    - Try to use SQL profiles to see genereted SQL queris (i will show you but after u search)
    - Try to configure you logging to see genereted SQL queris
-  
+
+- <a target="_blank" rel="noopener noreferrer" href="https://learn.epam.com/detailsPage?id=c7e2a1d0-6202-459e-bcda-a34e09996007" >LINQ with C# Essential Training</span></span></span></a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://tyrrrz.me/blog/expression-trees" >Working with expressions trees in C#:</a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/" >Expression Trees:</a>
 - <a  target="_blank" rel="noopener noreferrer" href="https://www.tutorialsteacher.com/linq/linq-expression" >Expression in LINQ: </a>

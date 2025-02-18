@@ -1,4 +1,6 @@
 __Linq Task__ 18 Feb 25
+- make all Data access package 9.0.0 to not have confilct ..
+    - <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
 - Do Bulk Update by ExecuteUpdateAsync
 - Do bulk Delete ExecuteDeleteAsync
 - Read those 10 videos and prepare min 10 qustions . https://www.youtube.com/watch?v=9bW8dp1M1Ac&list=PLpbZuj8hP-I6F-Zj1Ay8nQ1rMnmFnlK2f

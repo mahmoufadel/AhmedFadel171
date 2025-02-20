@@ -10,6 +10,21 @@ __Linq Task__ 18 Feb 25
 - Read those 10 videos and prepare min 10 qustions . https://www.youtube.com/watch?v=9bW8dp1M1Ac&list=PLpbZuj8hP-I6F-Zj1Ay8nQ1rMnmFnlK2f
 - Appy **High order Function** (Function accept Function as param)
 - Apply **function compisition** (Function return Function)
+- Polly again :
+  -- Move Retry Policy config from Service  to  "services.AddHttpClient" config
+  -- Apply Circuit Breaker Policy as well.
+  --  Apply Rate limit policy .
+      -- ``` builder.Services.AddHttpClient<IExternalServiceProvider, ExternalServiceProvider>()
+           .ConfigureHttpClient((service,client) => {
+               client.BaseAddress = new Uri(externalSettings.Url);
+           })
+           .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+           {
+               ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+           })
+         .AddPolicyHandler(PollyPolicies.GetRateLimitPolicy()) // Apply rate limiting
+         .AddPolicyHandler(PollyPolicies.GetRetryPolicy()) // Apply retry on failure
+         .AddPolicyHandler(PollyPolicies.GetCircuitBreakerPolicy()); // Apply circuit breaker
 
   
 __Linq Task__ 17 Feb 25

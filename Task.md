@@ -14,7 +14,7 @@ __Linq Task__ 18 Feb 25
   -- Move Retry Policy config from Service  to  "services.AddHttpClient" config
   -- Apply Circuit Breaker Policy as well.
   --  Apply Rate limit policy .
-      -- ``` builder.Services.AddHttpClient<IExternalServiceProvider, ExternalServiceProvider>()
+ ``` builder.Services.AddHttpClient<IExternalServiceProvider, ExternalServiceProvider>()
            .ConfigureHttpClient((service,client) => {
                client.BaseAddress = new Uri(externalSettings.Url);
            })

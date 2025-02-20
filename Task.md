@@ -25,7 +25,7 @@ __Linq Task__ 18 Feb 25
          .AddPolicyHandler(PollyPolicies.GetRateLimitPolicy()) // Apply rate limiting
          .AddPolicyHandler(PollyPolicies.GetRetryPolicy()) // Apply retry on failure
          .AddPolicyHandler(PollyPolicies.GetCircuitBreakerPolicy()); // Apply circuit breaker
-
+```
   
 __Linq Task__ 17 Feb 25
 - Add Join with products Table

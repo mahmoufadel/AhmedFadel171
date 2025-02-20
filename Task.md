@@ -14,6 +14,8 @@ __Linq Task__ 18 Feb 25
   - Move Retry Policy config from Service  to  "services.AddHttpClient" config
   - Apply Circuit Breaker Policy as well.
   -  Apply Rate limit policy .
+  -  Timeout Policy .. don't wait more than 5 sec .
+  -  Bulkhead Isolation as well : Limits the number of concurrent API to 5 :) 
  ``` 
 builder.Services.AddHttpClient<IExternalServiceProvider, ExternalServiceProvider>()
            .ConfigureHttpClient((service,client) => {

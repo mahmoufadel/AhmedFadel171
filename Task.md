@@ -7,6 +7,18 @@ __Linq Task__ 18 Feb 25
 - Make all Data access package 9.0.0 to not have confilct (Microsoft.EntityFrameworkCore.SqlServer)..  
 - Do Bulk Update by ExecuteUpdateAsync
 - Do bulk Delete ExecuteDeleteAsync
+- do Bulk Insert/Update/Delete by EFCore.BulkExtensions Package
+   ```
+    Install-Package EFCore.BulkExtensions
+   using EFCore.BulkExtensions;
+
+    public async Task BulkUpdateEntitiesAsync(List<MyEntity> entities)
+    {
+        using var context = new MyDbContext();
+        await context.BulkUpdateAsync(entities);
+    }
+   
+  ``` 
 - Read those 10 videos and prepare min 10 qustions . https://www.youtube.com/watch?v=9bW8dp1M1Ac&list=PLpbZuj8hP-I6F-Zj1Ay8nQ1rMnmFnlK2f
 - Appy **High order Function** (Function accept Function as param)
 - Apply **function compisition** (Function return Function)
